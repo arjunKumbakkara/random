@@ -2,10 +2,20 @@ from flask import Flask, render_template, request, jsonify
 
 app = Flask(__name__)
 
+
+#Arjun Kumbakkara
+
+@app.route('/', methods=['GET', 'POST']) # To render Homepage
+def home_page():
+    return render_template('index.html')
 #Added by Arjun hey
 #New Variables to be added
 #Python 
 #Python
+
+#eNTHA pAINI ALLE?
+
+#Mahai Pani ayi poi
 
 @app.route('/calculator', methods=['POST'])  # This will be called from UI
 def math_operation():
