@@ -13,8 +13,9 @@ def home_page():
 #Python 
 #Python
 
+#eNTHA pAINI ALLE?
 
-#Maha Pani ayi poi
+#Mahai Pani ayi poi
 
 @app.route('/calculator', methods=['POST'])  # This will be called from UI
 def math_operation():
